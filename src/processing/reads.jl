@@ -130,7 +130,6 @@ function process_exclusions(
             exclusion_zones_df;
             crs=EPSG(EPSG_code)
         )
-        exclusion_zones_df = GDF.read(exclusion_gpkg_path)
     end
     return exclusion_zones_df
 end
