@@ -131,6 +131,7 @@ function process_exclusions(
             crs=EPSG(EPSG_code)
         )
     end
+
     return exclusion_zones_df
 end
 
